@@ -1,0 +1,9 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.util.Map"><rhs name\="java.util.HashMap"/></lhs><lhs name\="org.springframework.kafka.core.ProducerFactory"><rhs name\="org.springframework.kafka.core.DefaultKafkaProducerFactory"/></lhs><lhs name\="org.springframework.kafka.core.KafkaOperations"><rhs name\="org.springframework.kafka.core.KafkaTemplate"/></lhs><lhs name\="org.springframework.context.ApplicationContextAware"><rhs name\="org.springframework.kafka.core.KafkaTemplate"/></lhs><lhs name\="org.springframework.beans.factory.Aware"><rhs name\="org.springframework.kafka.core.KafkaTemplate"/></lhs><lhs name\="org.springframework.beans.factory.BeanNameAware"><rhs name\="org.springframework.kafka.core.KafkaTemplate"/></lhs><lhs name\="org.springframework.context.ApplicationListener"><rhs name\="org.springframework.kafka.core.KafkaTemplate"/></lhs><lhs name\="java.util.EventListener"><rhs name\="org.springframework.kafka.core.KafkaTemplate"/></lhs><lhs name\="org.springframework.beans.factory.DisposableBean"><rhs name\="org.springframework.kafka.core.KafkaTemplate"/></lhs><lhs name\="org.springframework.kafka.core.KafkaTemplate"><rhs name\="org.springframework.kafka.core.KafkaTemplate"/></lhs></history>
+content_assist_number_of_computers=14
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.ui.formatterprofiles.version=21
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

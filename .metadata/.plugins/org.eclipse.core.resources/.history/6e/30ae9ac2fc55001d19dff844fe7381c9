@@ -1,0 +1,27 @@
+package com.example.kafka.consumer.demo;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.web.bind.annotation.RestController;
+
+@SpringBootApplication
+@RestController
+public class KafkaConsumerApplication {
+	
+	List<String> messages = new ArrayList<>();
+	
+	@KafkaListener(groupId = "ruthvik-1", topics = "ruthvik",containerFactory = "kafkaListenerContainerFactory")
+	public List<String> getMsgFromTopic(String data) {
+		messages.add(data);
+		return messages;
+	}
+
+	public static void main(String[] args) {
+		SpringApplication.run(KafkaConsumerApplication.class, args);
+	}
+
+}

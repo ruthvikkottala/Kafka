@@ -1,0 +1,5 @@
+package com.example.kafka.publisher.demo.config;
+
+public class User {
+
+}
